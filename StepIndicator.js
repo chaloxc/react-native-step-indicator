@@ -433,11 +433,13 @@ const styles = StyleSheet.create({
   stepContainer: {
     flex: 1,
     flexDirection: 'row',
+    width: 200, // ACA 
     alignItems: 'center',
     justifyContent: 'center'
   },
   stepLabel: {
-    fontSize: 12,
+    fontSize: 16,
+    width: 200, // Y ACA
     textAlign: 'center',
     fontWeight: '500'
   },
